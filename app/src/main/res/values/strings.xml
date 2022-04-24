@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Find BMI</string>
+    <string name="Gender">Gender</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Weight">weight</string>
+    <string name="Here">Here</string>
+    <string name="Height">Height</string>
+    <string name="Calculate">Calculate</string>
+    <string name="Normal">Normal</string>
+    <string name="OverWeight">OverWeight</string>
+    <string name="UnderWeight">UnderWeight</string>
+    <string name="Obesity">Obesity</string>
+    <string name="Reset">Reset</string>
+
+</resources>

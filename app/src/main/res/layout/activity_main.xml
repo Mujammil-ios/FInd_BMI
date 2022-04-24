@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/gender_id"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/Gender"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:checkedButton="@id/male"
+        android:orientation="vertical"
+        android:id="@+id/radio_group">
+
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Male" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:text="@string/Female" />
+    </RadioGroup>
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="10dp"
+        android:hint="@string/Weight"
+        android:id="@+id/outlined_weight"
+        android:inputType="numberDecimal"/>
+
+
+
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="130dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:hint="@string/Height"
+        android:id="@+id/outlined_height"
+        android:inputType="numberDecimal"/>
+
+
+
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="200dp" />
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="270dp"
+        android:text="@string/Calculate" />
+
+
+    <TextView
+        android:id="@+id/bmi_result"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="350dp"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="400dp"
+        android:text="@string/Reset"
+        android:id="@+id/recalculate_bmi"/>
+
+        <ImageView
+        android:id="@+id/bmi_image"
+        android:layout_width="258dp"
+        android:layout_height="301dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/ovwerweight" />
+
+
+
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="10dp"-->
+<!--        android:layout_marginTop="270dp"-->
+<!--        android:text="@string/Calculate" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="You're: "-->
+<!--        android:id="@+id/result_id"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="25sp"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginTop="400dp"-->
+<!--        android:background="@color/material_dynamic_tertiary90"/>-->
+
+
+
+</RelativeLayout>
