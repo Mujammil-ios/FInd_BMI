@@ -30,8 +30,8 @@ class MainActivity : AppCompatActivity() {
     val bmi_result : TextView
     get() = findViewById(R.id.bmi_result)
 
-    val bmi_image : ImageView
-    get() = findViewById(R.id.bmi_image)
+//    val bmi_image : ImageView
+//    get() = findViewById(R.id.bmi_image)
 //    val material_weight: EditText =findViewById(R.id.outlined_weight)
 //    val bmi_result: TextView= findViewById(R.id.bmi_result)
 
@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
 
 
         }
-        bmi_image.setImageResource(R.drawable.ovwerweight)
+//        bmi_image.setImageResource(R.drawable.ovwerweight)
 
 
 
@@ -88,13 +88,13 @@ class MainActivity : AppCompatActivity() {
 
         if(myBMI<18.5){
             bmi_result.setText(R.string.UnderWeight)
-            bmi_image.setImageResource(R.drawable.ovwerweight)
+//            bmi_image.setImageResource(R.drawable.ovwerweight)
         }else if (myBMI >=18.5 && myBMI <=24.5){
 
             bmi_result.setText(R.string.Normal)
         }else if(myBMI>=24.9 && myBMI<=29.9){
             bmi_result.setText(R.string.OverWeight)
-            bmi_image.setImageResource(R.drawable.ovwerweight)
+//            bmi_image.setImageResource(R.drawable.ovwerweight)
 
 
         }else if (myBMI >=29.9){

@@ -90,30 +90,24 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="55dp"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="400dp"
+        android:gravity="center"
+        android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold" />
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="125dp"
-        android:layout_marginTop="400dp"
-        android:text="@string/Reset"
-        android:id="@+id/recalculate_bmi"/>
+        android:id="@+id/recalculate_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginHorizontal="10dp"
 
-        <ImageView
-        android:id="@+id/bmi_image"
-        android:layout_width="258dp"
-        android:layout_height="301dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="450dp"
-        android:src="@drawable/ovwerweight" />
+        android:gravity="center"
+        android:text="@string/Reset" />
 
 
-
-
-<!--    <com.google.android.material.button.MaterialButton-->
+    <!--    <com.google.android.material.button.MaterialButton-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="wrap_content"-->
 <!--        android:layout_marginHorizontal="10dp"-->
